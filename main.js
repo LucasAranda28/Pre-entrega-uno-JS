@@ -24,7 +24,6 @@ do{
         let areatri = areatriangulo(largo, ancho) 
         alert("El area del rectangulo es: " + areatri )
     }else{
-        opcion = "c"
         alert("Error!!! Ingrese A ó B")
     }
 } while ( opcion !== "a" || opcion !== "b")
